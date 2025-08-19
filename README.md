@@ -1,22 +1,15 @@
-# airbnb--clone-project
-public
-# Airbnb Clone Project
+# Clone your repo
+git clone https://github.com/your-username/airbnb-clone-project.git
 
-## Overview
-This project is an **Airbnb Clone** built as part of my learning journey in full stack web development.  
-The goal is to create a functional web application that mimics core features of Airbnb, including:  
-- User authentication and profiles  
-- Property listings  
-- Booking and reservation system  
-- Search and filtering  
+# Move into the folder
+cd airbnb-clone-project
 
-## Tech Stack
-- **Frontend:** HTML, CSS, JavaScript, React  
-- **Backend:** C#, ASP.NET Core (or Node.js/Express)  
-- **Database:** MySQL / PostgreSQL  
-- **Version Control:** Git & GitHub  
+# Edit README.md with the content above
+nano README.md   # (or use VS Code)
 
-## Goals
-- Learn and apply full stack development concepts  
-- Practice building scalable and responsive applications  
-- Gain hands-on experience with Git, GitHub, and project collaboration  
+# Stage and commit changes
+git add README.md
+git commit -m "Added project overview and tech stack to README"
+
+# Push to GitHub
+git push origin main
